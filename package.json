@@ -1,0 +1,22 @@
+{
+  "name": "marketplace_ndesign-1",
+  "version": "1.0.0",
+  "description": "marketplace_ndesign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natii1103/marketplace_ndesign.git"
+  },
+  "author": "natalia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natii1103/marketplace_ndesign/issues"
+  },
+  "homepage": "https://github.com/natii1103/marketplace_ndesign#readme",
+  "dependencies": {
+    "sass": "^1.69.3"
+  }
+}
