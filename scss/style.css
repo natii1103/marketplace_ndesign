@@ -17,9 +17,9 @@ div a {
   font-size: 16px;
   font-family: MyFontBold;
   padding-inline: 10px;
-  margin-top: 5px;
-  margin-left: 70px;
-  margin-bottom: 10px;
+  text-decoration: none;
+  text-align: right;
+  display: inline-block;
 }
 
 .d-flex {
@@ -64,8 +64,8 @@ ul {
   margin-right: 10%;
 }
 ul img {
-  width: 10px;
-  height: 10px;
+  width: 250px;
+  height: 250px;
 }
 
 .card {
