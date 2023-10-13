@@ -113,19 +113,4 @@ li {
 #footer {
     background-color: rgb(71, 131, 173);
     margin-top: 70%;
-    font-family: MyFontRegular;
-
-}
-
-@media (max-width: 1000px) {
-    section {
-        background-color: rgb(138, 205, 239);
-    }
-
-}
-
-@media (min-width: 600px) {
-    section {
-        background-color: white;
-    }
-}
+    font-family: MyFontRegular;}
