@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/favicon.jpg">
-    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/scss/bootstrap.scss">
     <link rel="stylesheet" href="../../scss/style.css">
     <title>NDesign</title>
 </head>
@@ -43,64 +43,68 @@
 
     <section>
         <ul>
-            <div class="card">
-                <img src="../images/L1.jpg" alt="Lampara-Bulldog">
-                <p class="card-title">Lámpara Bulldog Frances</p>
-                <a href="#" class="btn">$65.000</a>
+            <div class="container">
+                <div class="row">
+
+                <div class="card col-md-4 col-sm-1" style="width: 15rem;">
+                    <img src="../images/L1.jpg" alt="Lampara-Bulldog">
+                    <p class="card-title">Lámpara Bulldog Frances</p>
+                    <a href="#" class="btn">$65.000</a>
+                </div>
+
+                <div class="card col-md-4 col-sm-1" style="width: 15rem;">
+                    <img src="../images/L3.jpg" alt="Lampara-Principito">
+                    <p class="card-title">Lámpara Principito</p>
+                    <a href="#" class="btn">$65.000</a>
+                </div>
+
+                <div class="card card col-md-4 col-sm-1" style="width: 15rem;">
+                    <img src="../images/L6.jpg" alt="Lampara-Casa-Papel">
+                    <p class="card-title">Lámpara Casa de Papel</p>
+                    <a href="#" class="btn">$65.000</a>
+                </div>
+
+                <div class="card col-md-4 col-sm-1" style="width: 15rem;">
+                    <img src="../images/Portac01.jpg" alt="Soporte-Celular">
+                    <p class="card-title">Soporte Elefante</p>
+                    <a href="#" class="btn">$65.000</a>
+                </div>
+
+                <div class="card col-md-4 col-sm-1" style="width: 15rem;">
+                    <img src="../images/Portac03.jpg" alt="Soporte-Celular">
+                    <p class="card-title">Soporte Perro</p>
+                    <a href="#" class="btn">$65.000</a>
+                </div>
+
+                <div class="card col-md-4 col-sm-1" style="width: 15rem;">
+                    <img src="../images/Portac02.jpg" alt="Soporte-Celular">
+                    <p class="card-title">Soporte Elefante</p>
+                    <a href="#" class="btn">$65.000</a>
+                </div>
+
+                <div class="card col-md-4 col-sm-1" style="width: 15rem;">
+                    <img src="../images/Bar2.jpg" alt="Bar">
+                    <p class="card-title">Bar</p>
+                    <a href="#" class="btn">$65.000</a>
+                </div>
+
+                <div class="card col-md-4 col-sm-1" style="width: 15rem;">
+                    <img src="../images/Bookend Londres.jpg" alt="Bookend-Londres">
+                    <p class="card-title">Bookend Londres</p>
+                    <a href="#" class="btn">$65.000</a>
+                </div>
+
+                <div class="card col-md-4 col-sm-1" style="width: 15rem;">
+                    <img src="../images/Bookend Londres.jpg" alt="Soporte-Celular">
+                    <p class="card-title">Soporte Elefante</p>
+                    <a href="#" class="btn">$65.000</a>
+                </div>
             </div>
 
-            <div class="card" style="width: 15rem;">
-                <img src="../images/L3.jpg" alt="Lampara-Principito">
-                <p class="card-title">Lámpara Principito</p>
-                <a href="#" class="btn">$65.000</a>
-            </div>
-
-            <div class="card" style="width: 15rem;">
-                <img src="../images/L6.jpg" alt="Lampara-Casa-Papel">
-                <p class="card-title">Lámpara Casa de Papel</p>
-                <a href="#" class="btn">$65.000</a>
-            </div>
-
-            <div class="card" style="width: 15rem;">
-                <img src="../images/Portac01.jpg" alt="Soporte-Celular">
-                <p class="card-title">Soporte Elefante</p>
-                <a href="#" class="btn">$65.000</a>
-            </div>
-
-            <div class="card" style="width: 15rem;">
-                <img src="../images/Portac03.jpg" alt="Soporte-Celular">
-                <p class="card-title">Soporte Perro</p>
-                <a href="#" class="btn">$65.000</a>
-            </div>
-
-            <div class="card" style="width: 15rem;">
-                <img src="../images/Portac02.jpg" alt="Soporte-Celular">
-                <p class="card-title">Soporte Elefante</p>
-                <a href="#" class="btn">$65.000</a>
-            </div>
-
-            <div class="card" style="width: 15rem;">
-                <img src="../images/Bar2.jpg" alt="Bar">
-                <p class="card-title">Bar</p>
-                <a href="#" class="btn">$65.000</a>
-            </div>
-
-            <div class="card" style="width: 15rem;">
-                <img src="../images/Bookend Londres.jpg" alt="Bookend-Londres">
-                <p class="card-title">Bookend Londres</p>
-                <a href="#" class="btn">$65.000</a>
-            </div>
-
-            <div class="card" style="width: 15rem;">
-                <img src="../images/Bookend Londres.jpg" alt="Soporte-Celular">
-                <p class="card-title">Soporte Elefante</p>
-                <a href="#" class="btn">$65.000</a>
-            </div>
 
 
-            
 
-        
+
         </ul>
 
 
@@ -110,12 +114,12 @@
     <footer>
         <section id="footer" class="py-4">
             <div>
-              <a href="./assets/images/instagram.svg" class="instagram"></a>
-              <a href="./assets/images/facebook.svg" class="facebook"></a>
-              <a href="./assets/images/whatsapp.svg" class="whatsapp"></a>
-              <h6 class="text-center text-white">Copyright © 2015 NDesign</h6>
+                <a href="./assets/images/instagram.svg" class="instagram"></a>
+                <a href="./assets/images/facebook.svg" class="facebook"></a>
+                <a href="./assets/images/whatsapp.svg" class="whatsapp"></a>
+                <h6 class="text-center text-white">Copyright © 2015 NDesign</h6>
             </div>
-          </section>
+        </section>
     </footer>
 </body>
 
