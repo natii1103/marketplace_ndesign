@@ -18,6 +18,7 @@
   "homepage": "https://github.com/natii1103/marketplace_ndesign#readme",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.3.2",
     "sass": "^1.69.3"
   }

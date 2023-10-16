@@ -12046,9 +12046,11 @@ ul img {
 }
 
 .card {
-  border-color: white;
+  border-color: none;
   padding-top: 10px;
-  margin-inline: 5%;
+  margin-inline: 50px;
+  margin-block-end: 80px;
+  box-shadow: 7px 10px 20px -10px rgba(0, 0, 0, 0.75);
 }
 
 .card-title {
@@ -12062,6 +12064,9 @@ ul img {
   width: 100px;
   color: rgb(161, 188, 49);
   font-family: "MyFontBold";
+}
+.btn :hover {
+  color: rgb(74, 114, 176);
 }
 
 section {

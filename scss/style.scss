@@ -77,9 +77,13 @@ ul {
 }
 
 .card {
-    border-color: white;
+    border-color: none;
     padding-top: 10px;
-    margin-inline: 5%;
+    margin-inline: 50px;
+    margin-block-end: 80px;
+     -webkit-box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.75);
+box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.75);
 }
 
 .card-title {
@@ -93,6 +97,10 @@ ul {
     width: 100px;
     color: rgb(161,188,49);
     font-family: "MyFontBold";
+
+    :hover {
+        color: rgb(74, 114, 176);
+    }
 }
 
 section {
