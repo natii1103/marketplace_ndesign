@@ -75,15 +75,18 @@ ul {
     border-color: rgb(74, 114, 176);
     transition: transform 0.3s;
     padding-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-inline: 50px;
-    margin-block-end: 80px;
-     -webkit-box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.75);
--moz-box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.75);
-box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.75);
-img {
-    width: 200px;
-    height: 200px;
-}
+    margin-block-end: 50px;
+    -webkit-box-shadow: 7px 10px 20px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 10px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 10px 20px -10px rgba(0, 0, 0, 0.75);
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .card :hover {
@@ -99,7 +102,7 @@ img {
 .btn {
     text-align: center;
     width: 100px;
-    color: rgb(161,188,49);
+    color: rgb(161, 188, 49);
     font-family: "MyFontBold";
 }
 
@@ -108,17 +111,11 @@ section {
     padding-top: 60px;
 }
 
-li {
-    list-style: none;
-}
 
-.mas-li {
-    font-weight: bold;
-    font-size: 20px;
-    width: 120px;
-}
+
 
 #footer {
     background-color: rgb(71, 131, 173);
     margin-top: 70%;
-    font-family: MyFontRegular;}
+    font-family: MyFontRegular;
+}

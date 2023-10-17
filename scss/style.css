@@ -12045,8 +12045,10 @@ ul {
   border-color: rgb(74, 114, 176);
   transition: transform 0.3s;
   padding-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-inline: 50px;
-  margin-block-end: 80px;
+  margin-block-end: 50px;
   box-shadow: 7px 10px 20px -10px rgba(0, 0, 0, 0.75);
 }
 .card img {
@@ -12074,16 +12076,6 @@ ul {
 section {
   text-align: center;
   padding-top: 60px;
-}
-
-li {
-  list-style: none;
-}
-
-.mas-li {
-  font-weight: bold;
-  font-size: 20px;
-  width: 120px;
 }
 
 #footer {
