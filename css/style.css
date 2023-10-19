@@ -486,9 +486,7 @@ select:disabled {
 button,
 [type=button],
 [type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+[type=submit] 
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -544,7 +542,7 @@ legend + * {
 }
 
 [type=search] {
-  -webkit-appearance: textfield;
+
   outline-offset: -2px;
 }
 
@@ -566,7 +564,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+
 }
 
 output {
@@ -12091,11 +12089,10 @@ ul {
 
 .card {
   border-color: rgb(74, 114, 176);
-  transition: transform 0.3s;
   padding-top: 10px;
   margin-left: 30px;
   margin-right: 30px;
-  margin-inline: 50px;
+  margin-inline: 30px;
   margin-block-end: 50px;
   box-shadow: 7px 10px 20px -10px rgba(0, 0, 0, 0.75);
 }
