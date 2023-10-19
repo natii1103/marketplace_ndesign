@@ -1,0 +1,7 @@
+@mixin card ($border){
+    border-color: $border
+}
+
+.card {
+    @include card ( rgb(74, 114, 176))
+}
