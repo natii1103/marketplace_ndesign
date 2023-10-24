@@ -12022,15 +12022,26 @@ h1 .information, .h1 .information {
   margin-top: 0px;
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.information-index {
+  font-family: MyFontRegular;
+  font-size: 16px;
+  color: rgb(74, 114, 176);
+  margin-top: 0px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .slider-box {
-  width: 1000px;
-  height: 400px;
-  padding-top: 10px;
+  width: 1100px;
+  height: 500px;
   margin: 50px auto 0;
-  overflow: hidden;
+  margin-top: 30px;
 }
 
 .slider-box ul {
@@ -12067,6 +12078,8 @@ h1 .information, .h1 .information {
   }
 }
 .container .card {
+  display: block;
+  align-items: center;
   border-color: rgb(74, 114, 176);
   width: 250px;
   height: 280px;
@@ -12113,17 +12126,50 @@ div a {
   padding-top: 30px;
 }
 
-ul .banner {
-  text-align: center;
+footer {
+  padding-top: 100px;
 }
 
-section {
-  text-align: center;
-  padding-top: 20px;
+.footer {
+  width: 100%;
+  background-color: rgb(74, 114, 176);
+  border-top: 10px solid rgb(161, 188, 49);
+  padding: 10px;
 }
 
-#footer {
-  background-color: rgb(161, 188, 49);
-  margin-top: 50%;
+.social, .links, .text-center {
+  display: flex;
+  align-items: center;
+}
+
+.social ul, .links ul, .text-center ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social li, .links li, .text-center li {
+  padding-top: 30px;
+  margin-inline: 30px;
+}
+
+.social a, .links a, .text-center {
+  color: #fff;
+  text-decoration: none;
   font-family: MyFontRegular;
+}
+
+@media (min-width: 768px) {
+  .social, .links, .text-center {
+    flex-basis: 50%;
+  }
+  .social {
+    justify-content: center;
+  }
+  .links {
+    justify-content: center;
+  }
+  .text-center {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
