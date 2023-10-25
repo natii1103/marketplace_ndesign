@@ -11998,6 +11998,14 @@ header #logosimbolo {
   width: 80px;
   height: 80px;
 }
+header div a {
+  color: rgb(74, 114, 176);
+  font-size: 16px;
+  font-family: MyFontBold;
+  padding-inline: 10px;
+  margin-right: 20px;
+  text-decoration: none;
+}
 
 .buscador {
   display: flex;
@@ -12091,52 +12099,37 @@ h1, .h1 {
   }
 }
 .container .card {
-  display: block;
-  align-items: center;
-  border-color: rgb(74, 114, 176);
+  display: flex;
+  justify-content: center;
+  border: none;
   width: 250px;
   height: 280px;
   padding-top: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-inline: 50px;
+  margin-inline: 60px;
   margin-block-end: 50px;
-  box-shadow: 7px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 10px 20px -10px rgb(42, 74, 121);
 }
 .container .card img {
+  margin-left: 15px;
   width: 200px;
   height: 200px;
+}
+.container .card :hover {
+  transform: scale(1.9);
 }
 .container .card p {
   color: rgb(74, 114, 176);
   font-family: "MyFontBold";
   font-size: 16px;
-}
-.container .card :hover {
-  transform: scale(1.3);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 .container .card .btn {
-  text-align: center;
   width: 100px;
   color: rgb(161, 188, 49);
   font-family: "MyFontBold";
-}
-
-div a {
-  color: rgb(74, 114, 176);
-  font-size: 16px;
-  font-family: MyFontBold;
-  padding-inline: 10px;
-  margin-right: 20px;
-  text-decoration: none;
-}
-
-.title {
-  font-family: MyFontBold;
-  color: rgb(74, 114, 176);
-  font-size: 50px;
-  text-align: center;
-  padding-top: 30px;
+  margin-left: 60px;
 }
 
 .footer {
