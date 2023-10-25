@@ -64,6 +64,23 @@ h1 {
   color: rgb(74, 114, 176);
 }
 
+h2 {
+  padding-top: 50px;
+  font-family: MyFontBold;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(161, 188, 49);
+}
+
+h3 {
+  padding-top: 5px;
+  padding-bottom: 20%;
+  font-family: MyFontRegular;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(74, 114, 176);
+}
+
 .information {
   font-family: MyFontRegular;
   font-size: 16px;
@@ -75,7 +92,7 @@ h1 {
   text-align: center;
 }
 
-.information-index {
+.information-page {
   font-family: MyFontRegular;
   font-size: 16px;
   color: rgb(74, 114, 176);
@@ -219,4 +236,11 @@ ul {
   .text-center {
     justify-content: center;
   }
+}
+
+ul .banner img {
+  display: flex;
+  width: 1100px;
+  height: auto;
+  margin-block-end: 80px;
 }
