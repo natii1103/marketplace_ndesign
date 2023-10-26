@@ -1,0 +1,53 @@
+h1 {
+  padding-top: 20px;
+  font-family: MyFontbold;
+  font-size: 50px;
+  text-align: center;
+  color: $color-principal;
+}
+
+h2 {
+  padding-top: 50px;
+  font-family: MyFontBold;
+  font-size: 24px;
+  text-align: center;
+  color: $color-secundario;
+}
+
+h3 {
+  padding-top: 5px;
+  padding-bottom: 20%;
+  font-family: MyFontRegular;
+  font-size: 16px;
+  text-align: center;
+  color: $color-principal;
+}
+
+.information {
+  font-family: MyFontRegular;
+  font-size: 16px;
+  color: $color-principal;
+  margin-top: 0px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.information-page {
+  font-family: MyFontRegular;
+  font-size: 16px;
+  color: $color-principal;
+  margin-top: 0px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul .banner img {
+  display: flex;
+  width: 1100px;
+  height: auto;
+  margin-block-end: 80px;
+}

@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  background-color: $color-principal;
+  border-top: 10px solid $color-secundario
+}
+
+.social,
+.links {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social a,
+.links a,
+.text-center {
+  color: $color-terciario;
+  text-decoration: none;
+  font-family: MyFontRegular;
+  margin-inline: 10px;
+  margin-block-end: 0%;
+}
+
+@media (min-width: 768px) {
+
+  .social,
+  .links,
+  .text-center {
+    flex-basis: 50%;
+  }
+
+  .social {
+    justify-content: center;
+  }
+
+  .links {
+    justify-content: center;
+  }
+
+  .text-center {
+    justify-content: center;
+  }
+}

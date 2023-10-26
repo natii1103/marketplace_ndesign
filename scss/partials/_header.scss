@@ -1,0 +1,52 @@
+header {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $color-terciario;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 10px;
+    min-width: auto;
+  }
+
+  #logosimbolo {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
+  }
+
+  div a {
+    color: $color-principal;
+    font-size: 16px;
+    font-family: MyFontBold;
+    padding-inline: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    min-width: 480px;
+  }
+}
+
+.buscador {
+  display: flex;
+  width: 15%;
+  margin-top: 1%;
+  margin-left: 83%;
+
+  .form-control {
+    display: flex;
+    border: 2px solid $color-principal;
+    margin-right: 5px;
+    font-family: MyFontRegular;
+    color: $color-principal;
+  }
+
+  .btn {
+    display: flex;
+    border: 2px solid $color-principal;
+    color: $color-principal;
+  }
+}
+
