@@ -11986,7 +11986,7 @@ textarea.form-control-lg {
 }
 header .navbar {
   display: flex;
-  background-color: rgb(244, 248, 255);
+  background-color: #f4f8ff;
   margin-top: 0%;
   margin-left: 0%;
   margin-bottom: 10px;
@@ -11999,7 +11999,7 @@ header #logosimbolo {
   height: 80px;
 }
 header div a {
-  color: rgb(74, 114, 176);
+  color: #4a72b0;
   font-size: 16px;
   font-family: MyFontBold;
   padding-inline: 10px;
@@ -12014,14 +12014,16 @@ header div a {
   margin-left: 83%;
 }
 .buscador .form-control {
-  border: 2px solid rgb(74, 114, 176);
+  display: flex;
+  border: 2px solid #4a72b0;
   margin-right: 5px;
   font-family: MyFontRegular;
-  color: rgb(74, 114, 176);
+  color: #4a72b0;
 }
 .buscador .btn {
-  border: 2px solid rgb(74, 114, 176);
-  color: rgb(74, 114, 176);
+  display: flex;
+  border: 2px solid #4a72b0;
+  color: #4a72b0;
 }
 
 h1, .h1 {
@@ -12029,7 +12031,7 @@ h1, .h1 {
   font-family: MyFontbold;
   font-size: 50px;
   text-align: center;
-  color: rgb(74, 114, 176);
+  color: #4a72b0;
 }
 
 h2, .h2 {
@@ -12037,7 +12039,7 @@ h2, .h2 {
   font-family: MyFontBold;
   font-size: 24px;
   text-align: center;
-  color: rgb(161, 188, 49);
+  color: #a1bc31;
 }
 
 h3, .h3 {
@@ -12046,13 +12048,13 @@ h3, .h3 {
   font-family: MyFontRegular;
   font-size: 16px;
   text-align: center;
-  color: rgb(74, 114, 176);
+  color: #4a72b0;
 }
 
 .information {
   font-family: MyFontRegular;
   font-size: 16px;
-  color: rgb(74, 114, 176);
+  color: #4a72b0;
   margin-top: 0px;
   margin-left: 20%;
   margin-right: 20%;
@@ -12063,7 +12065,7 @@ h3, .h3 {
 .information-page {
   font-family: MyFontRegular;
   font-size: 16px;
-  color: rgb(74, 114, 176);
+  color: #4a72b0;
   margin-top: 0px;
   margin-left: 20%;
   margin-right: 20%;
@@ -12073,6 +12075,8 @@ h3, .h3 {
 
 .slider-box {
   max-width: auto;
+  min-width: -moz-min-content;
+  min-width: min-content;
   position: relative;
   width: 1000px;
   height: 400px;
@@ -12124,18 +12128,18 @@ h3, .h3 {
   padding-top: 10px;
   margin-inline: 60px;
   margin-block-end: 50px;
-  box-shadow: 7px 10px 20px -10px rgb(42, 74, 121);
+  box-shadow: 7px 10px 20px -10px #4a72b0;
 }
 .container .card img {
   margin-left: 15px;
   width: 200px;
   height: 200px;
 }
-.container .card :hover {
+.container .card img:hover {
   transform: scale(1.9);
 }
 .container .card p {
-  color: rgb(74, 114, 176);
+  color: #4a72b0;
   font-family: "MyFontBold";
   font-size: 16px;
   text-align: center;
@@ -12144,15 +12148,15 @@ h3, .h3 {
 }
 .container .card .btn {
   width: 100px;
-  color: rgb(161, 188, 49);
+  color: #a1bc31;
   font-family: "MyFontBold";
   margin-left: 60px;
 }
 
 .footer {
   width: 100%;
-  background-color: rgb(74, 114, 176);
-  border-top: 10px solid rgb(161, 188, 49);
+  background-color: #4a72b0;
+  border-top: 10px solid #a1bc31;
 }
 
 .social, .links {
@@ -12167,7 +12171,7 @@ ul {
 }
 
 .social a, .links a, .text-center {
-  color: #fff;
+  color: #f4f8ff;
   text-decoration: none;
   font-family: MyFontRegular;
   margin-inline: 10px;
