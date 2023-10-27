@@ -12026,18 +12026,6 @@ header div a {
   color: #4a72b0;
 }
 
-@media (max-width: 768px) {
-  .div a {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    transition: all 0.3s ease-in-out;
-    transform: translateY(-100%);
-  }
-}
 h1, .h1 {
   padding-top: 20px;
   font-family: MyFontbold;
@@ -12130,9 +12118,6 @@ ul {
   }
 }
 .slider-box {
-  max-width: auto;
-  min-width: -moz-min-content;
-  min-width: min-content;
   position: relative;
   width: 1000px;
   height: auto;
@@ -12175,6 +12160,18 @@ ul {
     transform: translateX(0%);
   }
 }
+@media (min-width: 800px) {
+  .slider-box {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .slider-box {
+    width: 100%;
+    height: auto;
+  }
+}
 .container .card {
   display: flex;
   justify-content: center;
@@ -12183,7 +12180,7 @@ ul {
   height: 280px;
   padding-top: 10px;
   margin-inline: 60px;
-  margin-block-end: 50px;
+  margin-block-end: 80px;
   box-shadow: 7px 10px 20px -10px #4a72b0;
 }
 .container .card img {
@@ -12192,7 +12189,7 @@ ul {
   height: 200px;
 }
 .container .card img:hover {
-  transform: scale(1.9);
+  transform: scale(1.8);
 }
 .container .card p {
   color: #4a72b0;
@@ -12209,13 +12206,32 @@ ul {
   margin-left: 60px;
 }
 
-ul .banner img {
-  display: flex;
-  width: 1100px;
+.gallery {
+  display: block;
+  width: 75%;
   height: auto;
+  margin: auto;
+}
+
+.gallery img {
+  width: 1000px;
+  height: 400px;
   margin-block-end: 80px;
 }
 
+@media (min-width: 800px) {
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .gallery img {
+    width: 100%;
+    height: auto;
+    margin-block-end: 20px;
+  }
+}
 @font-face {
   font-family: MyFontBold;
   src: url(../assets/fonts/Raleway-Bold.ttf);

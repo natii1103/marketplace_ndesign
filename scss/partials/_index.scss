@@ -1,6 +1,4 @@
 .slider-box {
-  max-width: auto;
-  min-width: min-content;
   position: relative;
   width: 1000px;
   height: auto;
@@ -45,5 +43,19 @@
 
   100% {
     transform: translateX(0%);
+  }
+}
+
+@media (min-width: 800px) {
+  .slider-box {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-box {
+    width: 100%;
+    height: auto;
   }
 }

@@ -53,15 +53,3 @@ header {
   }
 }
 
-@media (max-width: 768px) {
-  .div a {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    transition: all .3s ease-in-out;
-    transform: translateY(-100%);
-  }
-}
