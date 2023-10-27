@@ -1,13 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header {
   .navbar {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
     background-color: $color-terciario;
     margin-top: 0%;
     margin-left: 0%;
     margin-bottom: 10px;
-    min-width: auto;
   }
 
   #logosimbolo {
@@ -50,3 +53,15 @@ header {
   }
 }
 
+@media (max-width: 768px) {
+  .div a {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+    transform: translateY(-100%);
+  }
+}

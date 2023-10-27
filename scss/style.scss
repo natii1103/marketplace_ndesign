@@ -1,10 +1,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "variables";
-@import "header";
-@import "body";
-@import"footer";
-@import "index";
-@import "galeria";
+@import "./variables";
+@import "./partials/header";
+@import "./partials/body";
+@import"./partials/footer";
+@import "./partials/index";
+@import "./partials/gallery";
 
 @font-face {
   font-family: MyFontBold;
